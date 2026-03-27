@@ -8,6 +8,7 @@
 
 ```
 Python_Advance_Complete_Tutorial_Part_5/
+├── README.md
 └── All Major Sorting Algorithms in Python/
     └── All Major Sorting Algorithms.ipynb
 ```
@@ -30,7 +31,8 @@ Python_Advance_Complete_Tutorial_Part_5/
 7. [How to Run](#-how-to-run)
 8. [Learning Approach](#-learning-approach)
 9. [Who Is This For?](#-who-is-this-for)
-10. [License](#-license)
+10. [Contributing](#-contributing)
+11. [License](#-license)
 
 ---
 
@@ -199,6 +201,78 @@ Each algorithm is taught by first showing the simplest correct solution, then id
 - **Developers** brushing up on fundamentals for technical interviews
 - **Python enthusiasts** wanting to understand performance trade-offs in sorting
 - **Anyone** who wants to go beyond `list.sort()` and understand what happens under the hood
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and greatly appreciated! Whether you want to fix a bug, add a new sorting algorithm, or improve an existing explanation — every bit helps the community learn better.
+
+### How to Contribute
+
+1. **Fork the repository**
+
+   Click the **Fork** button at the top-right of the repository page.
+
+2. **Clone your fork locally**
+
+   ```bash
+   git clone https://github.com/your-username/Python_Advance_Complete_Tutorial_Part_5.git
+   cd Python_Advance_Complete_Tutorial_Part_5
+   ```
+
+3. **Create a new branch** for your changes
+
+   ```bash
+   git checkout -b feature/add-heap-sort
+   ```
+
+4. **Make your changes** in the notebook or add a new `.ipynb` file
+
+5. **Commit with a clear message**
+
+   ```bash
+   git add .
+   git commit -m "Add Heap Sort with 3 implementation methods"
+   ```
+
+6. **Push to your fork**
+
+   ```bash
+   git push origin feature/add-heap-sort
+   ```
+
+7. **Open a Pull Request** — go to the original repository on GitHub and click **New Pull Request**
+
+---
+
+### 📋 Contribution Guidelines
+
+- **Follow the existing format** — each algorithm should have a markdown explanation cell followed by a code cell with inline comments and a test print statement.
+- **Include time complexity** in the method heading (e.g., `[ O(n log n) ]`).
+- **Provide at least one working test case** with the expected output shown in a comment.
+- **Do not break existing cells** — always test the full notebook top-to-bottom before submitting.
+- **Keep code clean and readable** — prioritize clarity over cleverness; this is a learning resource.
+
+---
+
+### 💡 Ideas for Contributions
+
+- Adding new algorithms (Heap Sort, Counting Sort, Radix Sort, Bucket Sort, Tim Sort)
+- Adding a new method variant to an existing algorithm
+- Improving inline code comments for clarity
+- Adding visual step-by-step trace examples in markdown
+- Fixing typos or incorrect complexity annotations
+
+---
+
+### 🐛 Reporting Issues
+
+Found a bug or an incorrect explanation? Please [open an issue](https://github.com/your-username/Python_Advance_Complete_Tutorial_Part_5/issues) with:
+
+- The **cell number** or algorithm name where the issue occurs
+- A **clear description** of what is wrong
+- The **expected vs actual output** (if code-related)
 
 ---
 
